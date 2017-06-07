@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    "lodash",
+    "syntax-flow",
+    "transform-flow-strip-types",
+    "transform-runtime",
+    ["module-resolver", {
+      "root": ["./app"]
+    }]
+  ]
+}

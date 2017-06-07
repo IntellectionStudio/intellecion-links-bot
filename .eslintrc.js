@@ -11,11 +11,6 @@ module.exports = {
       {functions: true, classes: true, variables: true},
     ],
     // https://github.com/benmosher/eslint-plugin-import
-    'import/no-internal-modules': [
-      2, // eslint-disable-line no-magic-numbers
-      {
-        allow: ['app/*'],
-      },
-    ],
+    'import/no-internal-modules': 0,
   },
 };
